@@ -1,7 +1,6 @@
 module Users
   # Sessions controller
   class SessionsController < Devise::SessionsController
-    include Users::SessionsHelper
     # GET /resource/sign_in
     def new
     end
