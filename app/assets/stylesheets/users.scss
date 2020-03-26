@@ -11,13 +11,17 @@ height: 100%;
 
 .title{
 font-family: 'Righteous';
-font-size: 50px;
+font-size: 55px;
 margin-top: 15px;
 margin-left: 20px;
-color: 	#E0FFFF;
+display: flex;
+text-transform: uppercase;
+background: linear-gradient(to right, #000080 0%,#00ffff 70%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .container1{
-background-image: url('image.jpg');
+background-image: url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
 position: fixed;
 height: 100%;
 width: 100%;
