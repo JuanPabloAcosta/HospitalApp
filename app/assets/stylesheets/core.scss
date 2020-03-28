@@ -1,0 +1,127 @@
+// Place all the styles related to the Core controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.example_a {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+margin-top: 250px;
+margin-right: 100px;
+}
+
+.example_a:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.example_b {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #60a3bc;
+padding: 20px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+margin-right: 80px;
+}
+
+.example_b:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.sign_out_btn {
+    .fa_custom {
+    color: #ed3330
+    }
+margin-left: 20px;
+margin-top: -290px;
+}
+
+.back_btn {
+    .fa_custom {
+    color: #ed3330
+    }
+margin-left: -1210px;
+margin-top: -500px;
+}
+
+.back_btn2 {
+    .fa_custom {
+    color: #ed3330
+    }
+margin-left: -1210px;
+margin-top: -600px;
+}
+
+.container3 {
+background-image: url('https://images.unsplash.com/photo-1512678080530-7760d81faba6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80');
+position: fixed;
+height: 100%;
+width: 100%;
+background-size: cover;
+}
+
+.card3{
+height: 570px;
+margin-top: 50px;
+width: 1100px;
+background-color: rgba(0,0,0,0.3) !important;
+font-family: 'Open Sans Condensed';
+}
+
+.btn_appointments{
+background: #008080;
+color: #fff;
+border: none;
+border-radius: 50px;
+padding: 10px;
+display: inline-block;
+text-decoration: none;
+margin-top: 20px;
+}
+
+.btn_appointments:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.card4{
+height: 470px;
+margin-top: 50px;
+width: 700px;
+background-color: rgba(0,0,0,0.3) !important;
+font-family: 'Open Sans Condensed';
+padding: 60px;
+padding-top: 100px;
+}
+
+.input-group-prepend3 span{
+width: 300px;
+background-color: #fff;
+color: black;
+border:0 !important;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
